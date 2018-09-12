@@ -21,9 +21,6 @@ function currentLine(line) {
     return "The line is currently empty.";
   }
   else {
-    for (var i=0; i<n; i++) {
-      array.push(" " + [i+1] + ". " + line[i]);
-    } 
+    return `There are ${n} customers in line.`;
   }
-  return "The line is currently:" + array;
 }
